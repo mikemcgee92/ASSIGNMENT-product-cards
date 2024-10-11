@@ -1,3 +1,70 @@
 body {
-  background-color: aqua;
+  background-color: lightcyan;
+}
+
+.new-amsterdam-regular {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-img-top {
+  width: 150px;
+  height: 150px;
+  align-self: center;
+}
+
+li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 70rem;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card {
+  margin: 20px;
+  border: 1px solid lightblue;
+  background-color: #512DA8;
+  color: #D1C4E9;
+}
+
+.card-header {
+  text-align: center;
+  font-family: "New Amsterdam", sans-serif;
+  background-color: #673AB7;
+}
+
+.spec-info {
+  font-size: x-small;
+}
+
+#available-header-true {
+  color: yellow;
+  background-color: darkgrey;
+  margin-left: -6.5%;
+  margin-right: -6.5%;
+}
+
+#available-header-false {
+  color: white;
+  background-color: red;
+  margin-left: -6.5%;
+  margin-right: -6.5%;
+}
+
+#sold-out {
+  position: absolute;
+  opacity: 75%;
+  width: 70%;
+  transform: translate(20%, 50%);
 }
