@@ -1,5 +1,15 @@
+@media screen and (max-width: 768px) {
+  body {
+    scale: 75%;
+  }
+}
+
 body {
   background-color: lightcyan;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 1 35%;
 }
 
 .new-amsterdam-regular {
@@ -24,6 +34,7 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  flex: 3 33%;
   width: 70rem;
 }
 
